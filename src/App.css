@@ -1,0 +1,59 @@
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* *::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+ 
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.App {
+  text-align: center;
+  background-color: #131921;
+}
+img{
+  height:20vh;
+  width:auto;
+}
+.wel{
+  color:white;
+}
+
+
+.app__form {
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  z-index: 1;
+  background-color: #e9e9eb!important;/* */
+  width: 95%;
+  margin: 10px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__iconButton {
+  width: 30px;
+}
+
+.msgDiv{
+  height: 55vh;
+  overflow: auto;
+}
